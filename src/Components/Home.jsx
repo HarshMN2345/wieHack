@@ -5,6 +5,7 @@ import { Box, Stack, Typography } from '@mui/material';
 import Search from './Search';
 import Exercises from './Exercises';
 import FitnessForm from './FitnessForm';
+import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
     </Stack>
   </Stack>
          <Box sx={{ mt: { lg: '212px', xs: '70px' }, ml: { sm: '50px' } }} position="relative" p="20px">
-    <Typography color="#FF2625" fontWeight="600" fontSize="26px">AI GYM</Typography>
+    <Typography color="#FF2625" fontWeight="600" fontSize="26px">FLEX BOT</Typography>
     <Typography fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '40px' } }} mb="23px" mt="30px">
     Unlock Your Fitness Potential<br />
     with AI-Powered Training 
@@ -44,6 +45,7 @@ const Home = () => {
   <Search/>
       <Exercises/>
       <FitnessForm/>
+      <Footer/>
     </div>
   )
 }

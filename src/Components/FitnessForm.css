@@ -1,3 +1,8 @@
+.form-body{
+    background-image: url('https://imgs.search.brave.com/RuFQgzZ0AIBb7LMLEykF1beudaEHLkCZLB4qQkglkxU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzU4LzY0LzAx/LzM2MF9GXzU1ODY0/MDEyMF9iMEZqQXBD/T1BGOEhWSlZRM2t4/ZmZsWHFzcWszcldw/Qi5qcGc');
+    background-size: contain;
+    height: 100vh;
+}
 .fitness-form-container {
     max-width: 400px;
     margin: 0 auto;
@@ -41,7 +46,12 @@
   button:hover {
     background-color: #0056b3;
   }
-  
+  .banimageui{
+    display: flex;
+    height:500px;
+    width:350px;
+    margin-top: 50px;
+  }
   h2 {
     text-align: center;
     margin-bottom: 20px;
