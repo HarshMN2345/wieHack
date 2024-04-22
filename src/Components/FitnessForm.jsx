@@ -31,7 +31,7 @@ const FitnessForm = () => {
   return (
     <div className='form-body'>
       <div className="fitness-form-container">
-        <h2>Input Your Fitness Details</h2>
+        <h2>Your Perfect Workout</h2>
         <form onSubmit={handleSubmit} className="fitness-form">
           <label>
             Fitness Goals:

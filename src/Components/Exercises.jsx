@@ -22,7 +22,7 @@ const Exercises = () => {
     {exercises.map((exercise, index) => (
       <div className="ag-courses_item" key={index}>
         {/* Use Link component from react-router-dom for navigation */}
-        <Link to={`/exercises/${index}`} className="ag-courses-item_link">
+        <Link to={`https://www.menshealth.com/uk/building-muscle/a758801/best-bicep-exercises-for-building-muscle/`} className="ag-courses-item_link">
           <div className="ag-courses-item_bg"></div>
           <div className="ag-courses-item_title">{exercise.exercise}</div>
           <div className="ag-courses-item_date-box">

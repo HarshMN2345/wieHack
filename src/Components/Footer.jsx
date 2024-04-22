@@ -22,27 +22,27 @@ const Footer = () => {
           <ul class="footer__nav-list">
             <li class="footer__nav-item">
               <a href="" class="footer__nav-link">
-                Mentions légales
+                Media pipe
               </a>
             </li>
             <li class="footer__nav-item">
               <a href="" class="footer__nav-link">
-                Politique de confidentialité
+                Sass
               </a>
             </li>
             <li class="footer__nav-item">
               <a href="" class="footer__nav-link">
-                CGV
+               Computer Vision
               </a>
             </li>
             <li class="footer__nav-item">
               <a href="" class="footer__nav-link">
-                Livraisons et retours
+                Natural Language Processing
               </a>
             </li>
             <li class="footer__nav-item">
               <a href="" class="footer__nav-link">
-                Règlement concours
+                LLM
               </a>
             </li>
           </ul>
@@ -50,7 +50,7 @@ const Footer = () => {
       </div>
       <div class="footer__col">
         <h3 class="footer__col-title">
-          <i data-feather="share-2"></i> <span>TEAM HACKWAZARDS</span></h3>
+          <i data-feather="share-2"></i> <span>TEAM HACKWIZARDS</span></h3>
         <nav class="footer__nav">
           <ul class="footer__nav-list">
             <li class="footer__nav-item">
@@ -80,7 +80,7 @@ const Footer = () => {
           <ul class="footer__nav-list">
             <li class="footer__nav-item">
               <a href="mailto:contact.laboiserie@gmail.com" class="footer__nav-link">
-                contact.laboiserie@gmail.com
+                Harshmahajan2345@gmail.com
               </a>
             </li>
           </ul>
@@ -88,7 +88,7 @@ const Footer = () => {
       </div>
     </div>
       <div class="footer__copyrights">
-        <p>Copyright <a href="https://twitter.com/silvereledev" target="_blank">@2024</a></p>
+        <p style={{color:"yellow"}}>Copyright <a href="https://twitter.com/silvereledev" target="_blank">@2024</a></p>
       </div>
   </div>
 </footer>
